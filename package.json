@@ -1,0 +1,12 @@
+{
+  "name": "xhttp-relay-eco",
+  "version": "1.3.5",
+  "type": "module",
+  "description": "Low-overhead XHTTP relay with v1.3 hardening on Vercel Node runtime",
+  "scripts": {
+    "build": "node scripts/prepare-build.mjs",
+    "build:frontend": "node scripts/prepare-build.mjs"
+  },
+  "private": true,
+  "license": "MIT"
+}

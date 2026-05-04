@@ -4,6 +4,7 @@
   "buildCommand": "npm run build",
   "functions": {
     "api/index.js": {
+      "memory": 128,
       "maxDuration": 60,
       "regions": [
         "iad1"
